@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Docs | Vsprout IDE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #007acc;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+    }
+
+    header nav button {
+      margin-left: 0.5rem;
+      padding: 0.4rem 1rem;
+      background-color: #005a9e;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    header nav button:hover {
+      background-color: #0e7ddb;
+    }
+
+    main.docs-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: #1e1e1e;
+      padding: 2rem;
+      border-radius: 10px;
+      border: 1px solid #333;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+
+    main.docs-container h2 {
+      font-size: 1.8rem;
+      color: #569cd6;
+      margin-bottom: 1rem;
+    }
+
+    main.docs-container h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #9cdcfe;
+    }
+
+    main.docs-container p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #d4d4d4;
+      margin-bottom: 1rem;
+    }
+
+    code.syntax {
+      background-color: #2d2d2d;
+      padding: 4px 8px;
+      border-radius: 5px;
+      color: #c586c0;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      user-select: text;
+    }
+
+    pre.example {
+      background-color: #252526;
+      border-radius: 6px;
+      padding: 1rem;
+      color: #dcdcaa;
+      font-size: 1rem;
+      overflow-x: auto;
+      border: 1px solid #444;
+      margin-bottom: 1.5rem;
+      user-select: text;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #222;
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-top: auto;
+      user-select: none;
+    }
+
+    .notice {
+      background-color: #264f78;
+      color: #dcdcaa;
+      padding: 1rem;
+      border-radius: 6px;
+      border: 1px solid #1e90ff;
+      margin-bottom: 2rem;
+      font-style: italic;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌱 Vsprout IDE</h1>
+    <nav>
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='about.html'">About</button>
+    </nav>
+  </header>
+
+  <main class="docs-container">
+    <h2>Vsprout Language Syntax</h2>
+
+    <div class="notice">
+      <strong>Note:</strong> Vsprout is actively being developed. More features and enhancements will be added in future updates.
+    </div>
+
+    <section>
+      <h3>Print Statement (<code class="syntax">shout</code>)</h3>
+      <p>
+        The <code class="syntax">shout</code> statement is used to print output. Every statement ends with <code class="syntax">.&gt;</code>.
+      </p>
+      <p>
+        You can include complex expressions inside a <code class="syntax">shout</code>. It supports:
+      </p>
+      <ul>
+        <li>String concatenation</li>
+        <li>Arithmetic calculations following standard operator precedence (BODMAS)</li>
+        <li>Combining variables and literals</li>
+      </ul>
+      <p>
+        This makes <code class="syntax">shout</code> versatile for generating dynamic output.
+      </p>
+      <pre class="example">
+shout "Total: " + (5 + 3 * 2).>
+      </pre>
+    </section>
+
+    <section>
+      <h3>Conditional (<code class="syntax">judge</code>)</h3>
+      <p>
+        The <code class="syntax">judge</code> block acts as a conditional statement similar to <code>if</code>. It evaluates a condition, and if true, executes the specified code block. Syntax ends with <code class="syntax">.&gt;</code>.
+      </p>
+      <pre class="example">
+judge { condition; todo; }.>
+      </pre>
+    </section>
+
+    <section>
+      <h3>Loop (<code class="syntax">loop</code>)</h3>
+      <p>
+        The <code class="syntax">loop</code> block repeats the enclosed code for a specified number of iterations. Syntax ends with <code class="syntax">.&gt;</code>.
+      </p>
+      <pre class="example">
+loop { 10; todo; }.>
+      </pre>
+    </section>
+
+    <section>
+      <h3>Upcoming Features</h3>
+      <p>
+        Future versions of Vsprout will include:
+      </p>
+      <ul>
+        <li>Variable declarations and data types</li>
+        <li>Functions and reusable code blocks</li>
+        <li>Error handling constructs</li>
+        <li>Enhanced input/output options</li>
+        <li>More advanced control flow statements</li>
+        <li>Improved debugging tools integrated in the IDE</li>
+      </ul>
+      <p>
+        Stay tuned for continuous updates as the language evolves!
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Vsprout IDE — Created by Vedavyaas</p>
+  </footer>
+</body>
+</html>
+`

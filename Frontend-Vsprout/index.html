@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vsprout IDE</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🌱 Vsprout IDE</h1>
+    <nav>
+      <button onclick="location.href='about.html'">About</button>
+      <button onclick="location.href='docs.html'">Docs</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="editor">
+      <h2>Editor</h2>
+      <textarea id="code" placeholder="// Write your code here..."></textarea>
+      <button onclick="runCode()">▶ Run Code</button>
+    </section>
+
+    <section class="console">
+      <h2>Console Output</h2>
+      <pre id="consoleOutput">💡 Waiting for code...</pre>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

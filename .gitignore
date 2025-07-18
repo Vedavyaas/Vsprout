@@ -1,0 +1,14 @@
+# Spring Boot build output
+backend/target/
+backend/*.iml
+backend/.idea/
+
+# macOS files
+.DS_Store
+
+# VSCode files
+.vscode/
+
+# node_modules if any
+frontend/node_modules/
+

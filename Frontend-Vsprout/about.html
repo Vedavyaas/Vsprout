@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Vsprout IDE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #007acc;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+    }
+
+    header nav button {
+      margin-left: 0.5rem;
+      padding: 0.4rem 1rem;
+      background-color: #005a9e;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    header nav button:hover {
+      background-color: #0e7ddb;
+    }
+
+    main.about-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: #1e1e1e;
+      padding: 2rem;
+      border-radius: 10px;
+      border: 1px solid #333;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .about-container h2 {
+      font-size: 1.8rem;
+      color: #569cd6;
+      margin-bottom: 1rem;
+    }
+
+    .about-container p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #d4d4d4;
+      margin-bottom: 1rem;
+    }
+
+    .about-container code {
+      background-color: #2d2d2d;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #c586c0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #222;
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-top: auto;
+      user-select: none;
+    }
+
+    .signature {
+      font-style: italic;
+      color: #888;
+      margin-top: 2rem;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌱 Vsprout IDE</h1>
+    <nav>
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='docs.html'">Docs</button>
+    </nav>
+  </header>
+
+  <main class="about-container">
+    <h2>About Vsprout IDE</h2>
+    <p>
+      Vsprout is a minimalist programming language designed to provide a simple and fun environment for coding experimentation. It features unique commands such as <code>shout</code>, <code>loop</code>, and <code>judge</code> that encourage creative problem solving within a compact syntax.
+    </p>
+    <p>
+      The Vsprout IDE is a browser-based interface that allows users to write and run Vsprout code snippets quickly and efficiently. It is powered by a Java backend with Spring Boot, enabling seamless communication between the frontend and execution engine.
+    </p>
+    <p>
+      This project was developed solely by <strong>Vedavyaas</strong> as a personal endeavor to explore language design and interpreter mechanics, providing a platform for both learning and play.
+    </p>
+    <p>
+      Whether you’re new to programming or an experienced coder looking for a fresh challenge, Vsprout offers a lightweight, interactive environment to test ideas and experiment with custom language features.
+    </p>
+    <p class="signature">
+      — Crafted with passion and code by Vedavyaas M R
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2025 Vsprout IDE — Created by Vedavyaas</p>
+  </footer>
+</body>
+</html>
