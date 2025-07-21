@@ -28,7 +28,9 @@ Wait for the IDE to load and index the project files.
 If prompted, import the Maven or Gradle project structure.
 ### 3. Compile and Run the Backend
 In the IDE, navigate to:
+```bash
 src/main/java/com/Vsprout/Sprout/ConsoleController.java
+```
 Right-click on ConsoleController.java and select Run,
 or run the main class (e.g., VsproutApplication.java) if available.
 ### 4. Launch the Frontend IDE
