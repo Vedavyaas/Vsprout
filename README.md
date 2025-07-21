@@ -16,6 +16,6 @@ A minimalistic programming language with least features published on July,17
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone <[repository-url](https://github.com/Vedavyaas/Vsprout)>
 
 
