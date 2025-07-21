@@ -18,6 +18,10 @@ A minimalistic programming language with least features published on July,17
    ```bash
    git clone <https://github.com/Vedavyaas/Vsprout>
 2. **Open the project in your IDE**
+   Launch Visual Studio Code or IntelliJ IDEA.
+   Click on "Open Folder" or "Open", and navigate to the cloned Vsprout directory.
+   Wait for the IDE to load and index the project files.
+   If prompted, allow the IDE to import the Maven/Gradle structure.
 3. **Compile and run the ConsoleController.java class**
 4. **Open the url <http://127.0.0.1:5500/Frontend-Vsprout/index.html> to see the online IDE**
 
