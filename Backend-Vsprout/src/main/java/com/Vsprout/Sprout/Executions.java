@@ -1,24 +1,29 @@
 package com.Vsprout.Sprout;
 
+import org.springframework.stereotype.Component;
+
 import java.util.*;
 import java.util.regex.Pattern;
+import java.util.StringTokenizer;
 
+@Component
 public class Executions {
+
     private ArrayList<ArrayList<String>> command;
 
-    public Executions(String line) {
+    public void setCommand(String line) {
         command = new ArrayList<>();
         ArrayList<String> prompt = new ArrayList<>();
 
         line = line.trim();
 
-        if (line.startsWith("shout")) {//shout "example".>
+        if (line.startsWith("shout")) {
             prompt.add("shout");
             prompt.add(line.substring(5).trim());
-        } else if (line.startsWith("judge")) {//judge {}.>
+        } else if (line.startsWith("judge")) {
             prompt.add("judge");
             prompt.add(line.substring(5).trim());
-        } else if (line.startsWith("loop")) {//loop {x times; expression;}.>
+        } else if (line.startsWith("loop")) {
             prompt.add("loop");
             prompt.add(line.substring(4).trim());
         } else {
@@ -34,15 +39,17 @@ public class Executions {
             String keyword = cmd.get(0);
             String value = cmd.get(1);
 
-            if (keyword.equals("shout")) {
-                return concat(value);
-            } else if (keyword.equals("judge")) {
-                return judge(value);
-            } else {
-                return loop(value);
+            switch (keyword) {
+                case "shout":
+                    return concat(value);
+                case "judge":
+                    return judge(value);
+                case "loop":
+                    return loop(value);
+                default:
+                    return "Error : Unknown command";
             }
         }
-
         return "Error : No command found";
     }
 
@@ -54,7 +61,6 @@ public class Executions {
         }
 
         value = value.substring(1, value.length() - 1).trim();
-
         String[] parts = value.split(";", 2);
         if (parts.length < 2) {
             return "Error : Missing condition or statement.";
@@ -75,7 +81,8 @@ public class Executions {
             for (String line : statements) {
                 line = line.trim();
                 if (!line.isEmpty()) {
-                    Executions inner = new Executions(line);
+                    Executions inner = new Executions();
+                    inner.setCommand(line);
                     String res = inner.main();
                     output.append(res).append("\n");
                 }
@@ -85,7 +92,6 @@ public class Executions {
         return output.toString().trim();
     }
 
-
     private String loop(String value) {
         StringBuilder output = new StringBuilder();
 
@@ -93,9 +99,9 @@ public class Executions {
             return "Error : Invalid Syntax.";
         }
 
-        value = value.substring(1, value.length() - 1).trim(); // Remove the surrounding { }
+        value = value.substring(1, value.length() - 1).trim();
 
-        String[] parts = value.split(";", 2); // Split into count and block
+        String[] parts = value.split(";", 2);
         if (parts.length < 2) {
             return "Error : Missing loop count or expression.";
         }
@@ -105,7 +111,7 @@ public class Executions {
 
         int count;
         try {
-            count = Integer.parseInt(countStr.split("\\s+")[0]); // in case "3 times"
+            count = Integer.parseInt(countStr.split("\\s+")[0]);
         } catch (NumberFormatException e) {
             return "Error : Invalid loop count.";
         }
@@ -115,7 +121,8 @@ public class Executions {
             for (String line : lines) {
                 line = line.trim();
                 if (!line.isEmpty()) {
-                    Executions inner = new Executions(line);
+                    Executions inner = new Executions();
+                    inner.setCommand(line);
                     String res = inner.main();
                     output.append(res).append("\n");
                 }
@@ -124,7 +131,6 @@ public class Executions {
 
         return output.toString().trim();
     }
-
 
     private String check(String alert, String expression) {
         alert = alert.trim();
@@ -154,20 +160,17 @@ public class Executions {
 
             for (String part : parts) {
                 String checked = check(part.trim(), part.trim());
+                if (checked.startsWith("Error")) return checked;
 
-                if (checked.startsWith("Error")) {
-                    return checked;
-                }
                 if (checked.startsWith("\"") && checked.endsWith("\"")) {
                     result.append(checked, 1, checked.length() - 1);
                 } else {
                     result.append(checked);
                 }
             }
-            return  result.toString();
+            return result.toString();
         }
     }
-
 
     private double evaluateExpression(String expression) {
         List<String> postfix = toPostfix(expression);
@@ -198,7 +201,7 @@ public class Executions {
                     output.add(operators.pop());
                 }
                 if (!operators.isEmpty() && operators.peek().equals("(")) {
-                    operators.pop(); // discard (
+                    operators.pop();
                 }
             }
         }
@@ -244,8 +247,9 @@ public class Executions {
             default -> 0;
         };
     }
+
     private boolean evaluateCondition(String condition) {
-        condition = condition.replaceAll("\\s+", ""); // Remove all spaces
+        condition = condition.replaceAll("\\s+", "");
 
         String[] ops = {">=", "<=", "==", "!=", ">", "<"};
 
