@@ -1,0 +1,705 @@
+2025-07-23 18:01:37.833715+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+insert into memory (code,id) values (?,default) [42104-232]
+2025-07-23 18:01:39.791217+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:39.985486+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:40.191050+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:40.400073+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:40.602394+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:40.807529+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:41.019615+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:41.229771+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:41.434610+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:41.643719+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:41.847756+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:42.057387+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:42.263095+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:42.469435+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:42.666431+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:42.873714+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:43.082759+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:43.280428+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:43.497358+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:43.706665+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:43.910779+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:44.109701+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:44.332583+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:44.535115+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:44.748178+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:44.947976+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:45.152709+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:45.364948+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:45.571582+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:45.773985+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:45.984065+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:46.197035+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:46.399872+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:46.602615+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:46.811930+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:47.015961+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:47.216661+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:47.436113+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:47.634887+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:47.843657+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:48.050030+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:48.261059+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:48.470388+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:48.674115+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:48.879363+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:49.080768+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:49.282047+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:49.492650+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:49.699928+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:49.913808+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:50.118282+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:50.322709+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:50.525257+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:50.732792+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:50.934979+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:51.141110+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:51.340481+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:51.549474+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:51.751635+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:51.956086+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:52.157357+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:52.367345+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:52.576915+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:52.777225+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:52.980009+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:53.192221+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:53.397896+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:53.601696+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:53.802636+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:54.009415+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:54.211835+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:54.416180+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:54.623495+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:54.839816+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:55.049051+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:55.253198+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:55.467173+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:55.663229+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:55.880639+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:56.085283+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:56.294232+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:01:56.497854+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:53.668527+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:53.899379+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:54.101212+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:54.309082+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:54.508262+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:54.709865+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:54.916765+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:55.215666+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:55.540985+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:55.750787+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:55.952240+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:56.161852+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:56.362188+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:56.572723+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:56.928622+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:57.094610+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:57.301462+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:02:57.511308+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:44.627978+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:44.745707+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:44.962129+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:45.176174+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:45.376215+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:45.595082+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:45.790591+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:45.993372+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:46.202557+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:46.399144+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:46.614162+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:46.873300+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:47.108333+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:47.436131+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:47.652683+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:47.856932+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:48.056473+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:48.267511+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:48.476996+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:48.706638+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:48.955127+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:49.104386+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:49.304489+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:49.541203+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:49.720933+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:49.926108+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:50.152890+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:50.323758+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:50.613149+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:50.829447+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:51.043312+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:51.248169+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:51.453499+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:51.659932+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:51.961077+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:52.187893+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:52.382406+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:52.588105+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:52.793936+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:53.003128+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:53.229740+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:53.410106+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:53.607506+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:53.908045+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:54.214509+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:54.430149+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:54.639892+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:54.850453+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:55.059183+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:55.275770+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:55.472280+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:55.765644+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:55.978734+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:56.184550+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:56.399320+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:56.605750+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:56.812365+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:57.094025+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:57.425776+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:57.628553+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:57.835358+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:58.037214+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:58.250481+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:58.464637+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:58.652056+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:58.871645+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:59.152895+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:59.287102+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:59.500501+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:04:59.707998+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:00.063327+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:00.223024+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:00.411936+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:00.629196+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:00.833727+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:01.040655+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:01.239924+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:01.453582+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:01.648187+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:01.849534+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:02.054718+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:02.253648+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:02.531985+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:02.667455+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:02.877752+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:03.078189+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:03.279819+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:03.487079+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:03.683420+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:03.899727+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:04.204227+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:04.475450+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:04.619451+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:04.823986+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:05.036439+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:05.237958+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:05.442843+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:05.744681+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:06.046291+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:06.363906+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:06.577416+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:06.784474+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:06.989759+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:07.192280+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:07.395678+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:07.622706+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:07.804913+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:08.006586+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:08.203926+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:08.488618+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:08.623056+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:08.832647+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:09.038508+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:09.246294+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:09.456300+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:09.761065+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:10.061510+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:10.356288+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:10.494249+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:10.705960+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:10.909292+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:11.116551+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:11.322794+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:11.569755+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:11.843077+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:12.029427+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:12.242087+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:12.543614+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:12.854720+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:13.112187+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:13.298268+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:13.494166+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:13.686625+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]
+2025-07-23 18:05:13.896339+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMORY" not found (this database is empty); SQL statement:
+select he1_0.id,he1_0.code from memory he1_0 [42104-232]

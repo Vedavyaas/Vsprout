@@ -1,13 +1,11 @@
 package com.Vsprout.Sprout;
 
-import com.Vsprout.Sprout.Database.HistoryEntity;
-import com.Vsprout.Sprout.Database.HistoryRepository;
+import com.Vsprout.Sprout.Database.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @CrossOrigin
@@ -17,17 +15,30 @@ public class ConsoleController {
     private Executions executions;
     @Autowired
     private HistoryRepository history;
+    @Autowired
+    private NotesRepository notes;
+
+    @GetMapping("/notes")
+    public List<String> getNotes() {
+        List<Notes> dbNote = notes.findAll();
+        List<String> inputNotes = new ArrayList<>();
+        for (Notes n : dbNote) {
+            inputNotes.add(n.getNote());
+        }
+        return inputNotes;
+    }
+
+    @PostMapping(value = "/notes", consumes = "text/plain")
+    public List<String> saveNote(@RequestBody String note) {
+        notes.save(new Notes(note));
+        return getNotes();
+    }
 
     @GetMapping("/history")
     public List<String> getHistory() {
-        List<HistoryEntity> entities = history.findAll();
-        List<String> codes = new ArrayList<>();
-
-        for (HistoryEntity entity : entities) {
-            codes.add(entity.getCode());
-        }
-
-        return codes;
+        return history.findAll().stream()
+                .map(HistoryEntity::getCode)
+                .toList();
     }
 
     @PostMapping("/run")

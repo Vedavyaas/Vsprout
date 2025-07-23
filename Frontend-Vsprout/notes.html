@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notes | Vsprout IDE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 600;
+      color: #60a5fa;
+    }
+    nav button {
+      background-color: #2c2c2c;
+      border: none;
+      padding: 0.5rem 1rem;
+      margin-left: 1rem;
+      color: #a0a0a0;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
+    }
+    nav button:hover {
+      background-color: #3b82f6;
+      color: white;
+    }
+    main {
+      flex: 1;
+      max-width: 800px;
+      margin: 2rem auto 3rem;
+      padding: 1rem 2rem;
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    h2 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #60a5fa;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+      border-radius: 8px;
+      border: 1px solid #444;
+      background-color: #2a2a2a;
+      color: #eee;
+      padding: 1rem;
+      font-size: 1rem;
+      font-family: monospace;
+      margin-bottom: 1rem;
+      outline-offset: 2px;
+      outline-color: #3b82f6;
+    }
+    button#saveBtn {
+      width: 120px;
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: white;
+      background-color: #3b82f6;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      align-self: flex-start;
+      transition: background-color 0.3s ease;
+    }
+    button#saveBtn:disabled {
+      background-color: #6b7280;
+      cursor: not-allowed;
+    }
+    button#saveBtn:hover:not(:disabled) {
+      background-color: #2563eb;
+    }
+    #notesList {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      font-family: monospace;
+      font-size: 1rem;
+      color: #ccc;
+      white-space: pre-wrap;
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #444;
+      background-color: #2a2a2a;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1f1f1f;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌱 Vsprout IDE</h1>
+    <nav>
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='history.html'">History</button>
+      <button onclick="location.href='about.html'">About</button>
+      <button onclick="location.href='docs.html'">Docs</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Your Notes</h2>
+    <textarea id="noteInput" placeholder="Type your note here..."></textarea>
+    <button id="saveBtn">Save Note</button>
+    <div id="notesList">Loading notes...</div>
+  </main>
+
+  <footer>
+    <p>© 2025 Vsprout IDE — Created by Vedavyaas</p>
+  </footer>
+
+  <script>
+    const noteInput = document.getElementById('noteInput');
+    const saveBtn = document.getElementById('saveBtn');
+    const notesList = document.getElementById('notesList');
+
+    async function fetchNotes() {
+      notesList.textContent = 'Loading notes...';
+      try {
+        const response = await fetch('http://localhost:8090/notes', {
+          method: 'GET'
+        });
+        if (!response.ok) throw new Error('Could not fetch notes');
+        const notes = await response.json();
+        if (!notes.length) {
+          notesList.textContent = 'No notes yet.';
+          return;
+        }
+        notesList.innerHTML = '';
+        notes.reverse().forEach(note => {
+          const div = document.createElement('div');
+          div.textContent = note;
+          notesList.appendChild(div);
+        });
+      } catch {
+        notesList.textContent = 'Failed to load notes.';
+      }
+    }
+
+    async function saveNote() {
+      const note = noteInput.value.trim();
+      if (!note) return;
+      saveBtn.disabled = true;
+      try {
+        const response = await fetch('http://localhost:8090/notes', {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain' },
+          body: note
+        });
+        if (!response.ok) throw new Error('Save failed');
+        const updatedNotes = await response.json();
+        noteInput.value = '';
+        notesList.innerHTML = '';
+        updatedNotes.reverse().forEach(note => {
+          const div = document.createElement('div');
+          div.textContent = note;
+          notesList.appendChild(div);
+        });
+      } catch {
+        alert('Error saving note');
+      } finally {
+        saveBtn.disabled = false;
+      }
+    }
+
+    saveBtn.addEventListener('click', saveNote);
+    fetchNotes();
+  </script>
+</body>
+</html>
