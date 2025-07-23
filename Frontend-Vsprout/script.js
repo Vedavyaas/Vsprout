@@ -4,7 +4,7 @@ function runCode() {
 
   output.textContent = "⏳ Running...";
 
-  fetch('http://localhost:8080/run', {
+  fetch('http://localhost:8090/run', {
     method: 'POST',
     headers: {
       'Content-Type': 'text/plain',

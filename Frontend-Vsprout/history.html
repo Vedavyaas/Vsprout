@@ -1,0 +1,79 @@
+<!-- history.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>History | Vsprout IDE</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .history-container {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 3rem;
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      border: 1px solid #333;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    }
+    .history-container h2 {
+      color: #569cd6;
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .entry {
+      background-color: #252526;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid #444;
+      font-family: monospace;
+      color: #dcdcaa;
+      white-space: pre-wrap;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌱 Vsprout IDE</h1>
+    <nav>
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='about.html'">About</button>
+      <button onclick="location.href='docs.html'">Docs</button>
+    </nav>
+  </header>
+
+  <main class="history-container">
+    <h2>Execution History</h2>
+    <div id="historyList">🔄 Loading history...</div>
+  </main>
+
+  <footer>
+    <p>© 2025 Vsprout IDE — Created by Vedavyaas</p>
+  </footer>
+
+  <script>
+    fetch('http://localhost:8090/history')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('historyList');
+        if (!data.length) {
+          container.innerHTML = "📭 No history available.";
+          return;
+        }
+        container.innerHTML = "";
+        data.reverse().forEach(entry => {
+          const div = document.createElement('div');
+          div.className = 'entry';
+          div.textContent = entry;
+          container.appendChild(div);
+        });
+      })
+      .catch(err => {
+        document.getElementById('historyList').innerHTML = "❌ Error fetching history.";
+      });
+  </script>
+</body>
+</html>
