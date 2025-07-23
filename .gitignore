@@ -12,3 +12,5 @@ backend/.idea/
 # node_modules if any
 frontend/node_modules/
 
+.idea/
+.idea/
