@@ -5,113 +5,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Notes | Vsprout IDE</title>
   <style>
+    :root {
+      --primary: #3b82f6;
+      --bg: #121212;
+      --header: #1f1f1f;
+      --box: #1e1e1e;
+      --input: #2a2a2a;
+      --text-light: #e0e0e0;
+      --text-muted: #a0a0a0;
+      --border: #444;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #121212;
-      color: #e0e0e0;
-      margin: 0;
+      background: var(--bg);
+      color: var(--text-light);
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
     }
+
     header {
-      background-color: #1f1f1f;
+      background-color: var(--header);
       padding: 1rem 2rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      border-bottom: 1px solid var(--border);
     }
+
     header h1 {
-      margin: 0;
-      font-weight: 600;
-      color: #60a5fa;
+      font-size: 1.8rem;
+      color: var(--primary);
     }
+
     nav button {
       background-color: #2c2c2c;
       border: none;
       padding: 0.5rem 1rem;
       margin-left: 1rem;
-      color: #a0a0a0;
+      color: var(--text-muted);
       font-weight: 600;
       cursor: pointer;
       border-radius: 6px;
-      transition: background-color 0.2s ease;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
+
     nav button:hover {
-      background-color: #3b82f6;
-      color: white;
+      background-color: var(--primary);
+      color: #fff;
     }
+
     main {
       flex: 1;
       max-width: 800px;
-      margin: 2rem auto 3rem;
-      padding: 1rem 2rem;
-      background-color: #1e1e1e;
-      border-radius: 10px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: var(--box);
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
       display: flex;
       flex-direction: column;
     }
+
     h2 {
-      margin-top: 0;
+      color: var(--primary);
+      font-size: 2rem;
       margin-bottom: 1rem;
-      color: #60a5fa;
     }
+
     textarea {
       resize: vertical;
       min-height: 120px;
-      border-radius: 8px;
-      border: 1px solid #444;
-      background-color: #2a2a2a;
-      color: #eee;
       padding: 1rem;
-      font-size: 1rem;
+      border: 1px solid var(--border);
+      background-color: var(--input);
+      color: #eee;
+      border-radius: 8px;
       font-family: monospace;
+      font-size: 1rem;
       margin-bottom: 1rem;
-      outline-offset: 2px;
-      outline-color: #3b82f6;
+      transition: border-color 0.2s ease;
     }
+
+    textarea:focus {
+      border-color: var(--primary);
+      outline: none;
+    }
+
     button#saveBtn {
-      width: 120px;
+      width: 140px;
       padding: 0.6rem 1rem;
       font-size: 1rem;
       font-weight: 600;
       color: white;
-      background-color: #3b82f6;
+      background-color: var(--primary);
       border: none;
       border-radius: 8px;
       cursor: pointer;
       align-self: flex-start;
       transition: background-color 0.3s ease;
     }
+
     button#saveBtn:disabled {
       background-color: #6b7280;
       cursor: not-allowed;
     }
+
     button#saveBtn:hover:not(:disabled) {
       background-color: #2563eb;
     }
+
     #notesList {
-      margin-top: 1.5rem;
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: var(--input);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      max-height: 300px;
+      overflow-y: auto;
       display: flex;
       flex-direction: column;
       gap: 1rem;
       font-family: monospace;
-      font-size: 1rem;
-      color: #ccc;
+      font-size: 0.95rem;
       white-space: pre-wrap;
-      max-height: 300px;
-      overflow-y: auto;
-      border: 1px solid #444;
-      background-color: #2a2a2a;
-      border-radius: 8px;
-      padding: 1rem;
+      line-height: 1.5;
     }
+
     footer {
       text-align: center;
       padding: 1rem;
-      background-color: #1f1f1f;
+      background-color: var(--header);
       color: #777;
       font-size: 0.9rem;
+    }
+
+    /* Optional: Smooth scrolling in note box */
+    #notesList::-webkit-scrollbar {
+      width: 6px;
+    }
+    #notesList::-webkit-scrollbar-thumb {
+      background: #555;
+      border-radius: 4px;
     }
   </style>
 </head>
@@ -127,7 +169,7 @@
   </header>
 
   <main>
-    <h2>Your Notes</h2>
+    <h2>📝 Your Notes</h2>
     <textarea id="noteInput" placeholder="Type your note here..."></textarea>
     <button id="saveBtn">Save Note</button>
     <div id="notesList">Loading notes...</div>
@@ -145,13 +187,11 @@
     async function fetchNotes() {
       notesList.textContent = 'Loading notes...';
       try {
-        const response = await fetch('http://localhost:8090/notes', {
-          method: 'GET'
-        });
+        const response = await fetch('http://localhost:8090/notes');
         if (!response.ok) throw new Error('Could not fetch notes');
         const notes = await response.json();
         if (!notes.length) {
-          notesList.textContent = 'No notes yet.';
+          notesList.textContent = '📭 No notes yet.';
           return;
         }
         notesList.innerHTML = '';
@@ -161,7 +201,7 @@
           notesList.appendChild(div);
         });
       } catch {
-        notesList.textContent = 'Failed to load notes.';
+        notesList.textContent = '❌ Failed to load notes.';
       }
     }
 

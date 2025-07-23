@@ -1,4 +1,3 @@
-<!-- history.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,31 +6,98 @@
   <title>History | Vsprout IDE</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .history-container {
-      max-width: 1000px;
-      margin: 3rem auto;
-      padding: 3rem;
-      background-color: #1e1e1e;
-      border-radius: 12px;
-      border: 1px solid #333;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    :root {
+      --bg-color: #1e1e1e;
+      --box-color: #252526;
+      --border-color: #333;
+      --accent-color: #569cd6;
+      --text-color: #dcdcaa;
+      --header-text: #ffffff;
     }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: var(--accent-color);
+    }
+
+    nav button {
+      background-color: #2d2d2d;
+      color: var(--header-text);
+      border: none;
+      padding: 0.5rem 1rem;
+      margin-left: 0.5rem;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    nav button:hover {
+      background-color: #3c3c3c;
+    }
+
+    .history-container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: var(--box-color);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
     .history-container h2 {
-      color: #569cd6;
+      color: var(--accent-color);
       font-size: 2.2rem;
       margin-bottom: 1.5rem;
+      text-align: center;
     }
+
     .entry {
-      background-color: #252526;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
+      background-color: #1b1b1b;
+      padding: 1.2rem;
+      margin-bottom: 1.2rem;
       border-radius: 8px;
-      border: 1px solid #444;
+      border-left: 4px solid var(--accent-color);
       font-family: monospace;
-      color: #dcdcaa;
+      color: var(--text-color);
       white-space: pre-wrap;
-      font-size: 1.1rem;
-      line-height: 1.5;
+      font-size: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .entry:hover {
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      color: #888;
+      font-size: 0.9rem;
     }
   </style>
 </head>
@@ -47,7 +113,7 @@
   </header>
 
   <main class="history-container">
-    <h2>Execution History</h2>
+    <h2>📜 Execution History</h2>
     <div id="historyList">🔄 Loading history...</div>
   </main>
 

@@ -1,6 +1,11 @@
-function runCode() {
+function runCode(event) {
+  if(event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+
   const codeInput = document.getElementById('code');
-  const code = codeInput.value;  // save current editor content
+  const code = codeInput.value;
 
   const output = document.getElementById('consoleOutput');
   output.textContent = "⏳ Running...";
@@ -13,10 +18,10 @@ function runCode() {
   .then(res => res.text())
   .then(data => {
     output.textContent = data || "✅ Done (no output)";
-    // NO clearing or modifying codeInput.value here
   })
   .catch(err => {
     output.textContent = "❌ Error: " + err.message;
-    // NO clearing or modifying codeInput.value here either
   });
 }
+
+window.runCode = runCode;

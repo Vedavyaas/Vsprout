@@ -43,8 +43,6 @@ public class ConsoleController {
 
     @PostMapping("/run")
     public String runCode(@RequestBody String code) {
-        history.save(new HistoryEntity(code));
-        getHistory();
         try {
             String[] inputs = code.trim().split("(?<=\\.>)");
             StringBuilder output = new StringBuilder();
@@ -69,10 +67,11 @@ public class ConsoleController {
             }
 
             return output.toString().trim();
-
         } catch (Exception e) {
             e.printStackTrace();
             return "Error: Internal Server Error - " + e.getMessage();
+        } finally {
+            history.save(new HistoryEntity(code));
         }
     }
 }
