@@ -2,6 +2,8 @@
 
 A minimalistic programming language with the least features, published on **July 17**.
 
+**New feature:** History tab with H2 database support in backend logic — released on July 23
+
 ---
 
 ## Prerequisites
