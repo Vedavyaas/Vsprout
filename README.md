@@ -4,6 +4,8 @@ A minimalistic programming language with the least features, published on **July
 
 **New feature:** History tab and Notes tab with H2 database support in backend logic — released on July 23
 
+**New feature:** History and notes tab with permanent storage capablity - released in July 25
+
 ---
 
 ## Prerequisites
@@ -49,20 +51,9 @@ Navigate to the frontend folder:
 ```bash
 Frontend-Vsprout/index.html
 ```
-You can either:
 
+Open the file directly in your browser,
 
-Open the file directly in your browser, or
+**Note:** Do not use a live server (like the Live Server extension in VS Code)
 
-
-Use a live server (like the Live Server extension in VS Code)
-
-
-to host it locally.
-
-
-Then go to:
-```bash
-http://127.0.0.1:5500/Frontend-Vsprout/index.html
-```
 You should now see the Vsprout Online IDE interface.
