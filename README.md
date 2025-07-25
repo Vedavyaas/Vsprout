@@ -54,6 +54,6 @@ Frontend-Vsprout/index.html
 
 Open the file directly in your browser,
 
-**Note:** Do not use a live server (like the Live Server extension in VS Code)
-
 You should now see the Vsprout Online IDE interface.
+
+**Note:** Do not use a live server (like the Live Server extension in VS Code)
