@@ -1,13 +1,13 @@
-package com.Vsprout.Sprout;
+package com.Vsprout.Sprout.Service;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.StringTokenizer;
 
-@Component
-public class Executions {
+@Service
+public class ExecutionService {
 
     private ArrayList<ArrayList<String>> command;
 
@@ -81,7 +81,7 @@ public class Executions {
             for (String line : statements) {
                 line = line.trim();
                 if (!line.isEmpty()) {
-                    Executions inner = new Executions();
+                    ExecutionService inner = new ExecutionService();
                     inner.setCommand(line);
                     String res = inner.main();
                     output.append(res).append("\n");
@@ -121,7 +121,7 @@ public class Executions {
             for (String line : lines) {
                 line = line.trim();
                 if (!line.isEmpty()) {
-                    Executions inner = new Executions();
+                    ExecutionService inner = new ExecutionService();
                     inner.setCommand(line);
                     String res = inner.main();
                     output.append(res).append("\n");
